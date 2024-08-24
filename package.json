@@ -13,7 +13,8 @@
     "db:pull": "drizzle-kit introspect",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:check": "drizzle-kit check"
+    "db:check": "drizzle-kit check",
+    "format": "prettier --write src/**/*"
   },
   "dependencies": {
     "@auth/core": "^0.34.2",
@@ -40,7 +41,6 @@
     "pg": "^8.12.0",
     "react": "^18",
     "react-dom": "^18",
-    "resend": "^4.0.0",
     "server-only": "^0.0.1",
     "sonner": "^1.5.0",
     "superjson": "^2.2.1",
@@ -58,6 +58,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
     "postcss": "^8",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
     "tsx": "^4.17.0",
     "typescript": "^5"

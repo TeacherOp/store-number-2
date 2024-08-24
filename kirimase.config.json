@@ -4,8 +4,7 @@
     "shadcn-ui",
     "drizzle",
     "next-auth",
-    "trpc",
-    "resend"
+    "trpc"
   ],
   "preferredPackageManager": "pnpm",
   "t3": false,

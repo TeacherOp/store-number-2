@@ -14,7 +14,10 @@ export default function SignIn() {
           Signed in as{" "}
           <span className="font-medium">{session.user?.email}</span>
         </p>
-        <Button variant={"destructive"} onClick={() => signOut({ callbackUrl: "/" })}>
+        <Button
+          variant={"destructive"}
+          onClick={() => signOut({ callbackUrl: "/" })}
+        >
           Sign out
         </Button>
       </div>
